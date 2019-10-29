@@ -1,0 +1,24 @@
+.input-holder {
+  display: flex;
+  flex-flow: wrap column;
+  text-align: left;
+  width: 40%;
+  margin: 0;
+}
+
+label {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 15px;
+  margin-left: 25px;
+  font-weight: 100;
+}
+
+input {
+  height: 40px;
+  width: 300px;
+  border-radius: 6px 6px 6px 3px;
+  margin: 0 25px 20px 25px;
+  padding: 6px;
+  font-size: 14px;
+}

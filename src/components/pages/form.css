@@ -1,0 +1,27 @@
+.form-holder {
+  background: rgb(255, 254, 254);
+  width: 800px;
+  margin: 60px auto;
+  border-radius: 6px 6px 6px 5px;
+  padding: 10px 0 10px 0;
+  display: flex;
+  flex-flow: wrap column;
+  justify-content: start;
+  align-items: start;
+  box-shadow: 0 8px 6px rgb(168, 168, 160);
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-flow: wrap row;
+  padding: 0;
+}
+
+.button-container {
+  width: 100%;
+  margin: 40px 0 40px 0;
+  display: flex;
+  justify-content: center;
+}

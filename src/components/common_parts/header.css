@@ -1,0 +1,16 @@
+header {
+  width: 100%;
+  background: rgb(46, 46, 146);
+  color: rgb(247, 247, 247);
+  padding: 10px;
+}
+
+.header-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header-container h1 {
+  font-size: 38px;
+}
