@@ -1,6 +1,6 @@
 .form-holder {
   background: rgb(255, 254, 254);
-  width: 800px;
+  width: 500px;
   margin: 60px auto;
   border-radius: 6px 6px 6px 5px;
   padding: 10px 0 10px 0;
@@ -11,17 +11,41 @@
   box-shadow: 0 8px 6px rgb(168, 168, 160);
 }
 
+.form-holder form {
+  width: 100%;
+}
+
 .container {
   width: 100%;
   display: flex;
-  justify-content: space-around;
-  flex-flow: wrap row;
+  justify-content: center;
+  flex-flow: wrap column;
   padding: 0;
+  margin: 25px 0 25px 0;
 }
 
-.button-container {
-  width: 100%;
-  margin: 40px 0 40px 0;
+.input-holder {
   display: flex;
+  flex-flow: wrap column;
   justify-content: center;
+  text-align: left;
+  width: 100%;
+  margin: 0;
+}
+
+label {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 15px;
+  margin-left: 25px;
+  font-weight: 100;
+}
+
+input {
+  height: 40px;
+  width: 90%;
+  border-radius: 6px 6px 6px 5px;
+  margin: 0 25px 20px 25px;
+  padding: 6px;
+  font-size: 14px;
 }

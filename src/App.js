@@ -1,12 +1,12 @@
 import React from "react";
 import "./App.css";
 import Header from "./components/common_parts/header";
-import Form from "./components/pages/form";
+import LogIn from "./components/pages/LogInForm";
 function App() {
   return (
     <div className="App">
       <Header />
-      <Form />
+      <LogIn />
     </div>
   );
 }

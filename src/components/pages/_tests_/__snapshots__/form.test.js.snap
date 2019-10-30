@@ -1,3 +1,63 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders correctly 1`] = `[Function]`;
+exports[`renders correctly 1`] = `
+<div
+  class="form-holder"
+>
+  <div
+    class="container"
+  >
+    <h2>
+      Log in
+    </h2>
+    <div>
+      We haven't tracked you in awhile
+    </div>
+  </div>
+  <form>
+    <div
+      class="input-holder"
+    >
+      <label
+        for="email"
+      >
+        Email:
+      </label>
+      <input
+        data-testid="email"
+        id="email"
+        placeholder="you@you.com"
+        required=""
+        type="email"
+        value=""
+      />
+    </div>
+    <div
+      class="input-holder"
+    >
+      <label
+        for="password"
+      >
+        Password:
+      </label>
+      <input
+        data-testid="password"
+        id="password"
+        placeholder="your password"
+        required=""
+        type="password"
+        value=""
+      />
+    </div>
+    <div
+      class="container"
+    >
+      <button
+        type="submit"
+      >
+        Let us track you
+      </button>
+    </div>
+  </form>
+</div>
+`;
