@@ -12,6 +12,19 @@ class LogInForm extends Component {
     };
   }
 
+  handleSubmit = (event) => {
+    event.preventDefault();
+    const payload = { ...this.state };
+
+    console.log(payload);
+  };
+
+  handleChange = (event) => {
+    this.setState({
+      [event.target.id]: event.target.value
+    });
+  };
+
   render() {
     return (
       <div className='form-holder'>
