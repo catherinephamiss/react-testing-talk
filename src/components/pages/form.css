@@ -1,13 +1,13 @@
 .form-holder {
   background: rgb(255, 254, 254);
   width: 500px;
-  margin: 60px auto;
+  margin: 0 auto;
   border-radius: 6px 6px 6px 5px;
   padding: 10px 0 10px 0;
   display: flex;
   flex-flow: wrap column;
-  justify-content: start;
-  align-items: start;
+  justify-content: flex-start;
+  align-items: flex-start;
   box-shadow: 0 8px 6px rgb(168, 168, 160);
 }
 
